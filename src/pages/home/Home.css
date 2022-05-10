@@ -1,0 +1,12 @@
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .home-container {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+}
+/*# sourceMappingURL=home.css.map */

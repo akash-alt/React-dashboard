@@ -1,0 +1,42 @@
+.sidebar {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border-right: 0.3px solid #f2eded;
+  height: 100vh;
+}
+
+.sidebar .top {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar .top .logo {
+  color: blueviolet;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+hr {
+  height: 0px;
+  border: 0.3px solid #f1eaea;
+}
+
+.center {
+  padding-left: 10px;
+}
+
+.center ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=Sidebar.css.map */
