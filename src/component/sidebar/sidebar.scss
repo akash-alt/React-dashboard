@@ -8,11 +8,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    &:hover{
+        background-color: rgb(16, 60, 69);
+        color: #41FAC9;
+    }
     
     .logo{
-        color: blueviolet;
+        color: rgb(220, 208, 232);
         font-size: 24px;
         font-weight: bold;
+        &:hover{
+            color: #41FAC9;
+        }  
     }
    }
 }
@@ -28,5 +35,56 @@ hr{
         list-style: none;
         padding: 0;
         margin: 0;
+    }
+    .title{
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    li{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        cursor: pointer;
+        &:hover{
+            background-color: rgb(16, 60, 69);
+           
+        }
+        .icon{
+            color: #335271;
+            &:hover{
+                color: #41FAC9;
+            }
+        }
+        span{        
+            font-weight: 600;
+            color:  #a9afae;
+            margin-left: 10px;
+            &:hover{
+                color:  #41FAC9;
+            }
+        }
+    }
+}
+.color-bottom{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    .color-option{
+        width: 20px;
+        height: 20px;
+        border: 5px;
+        cursor: pointer;
+        border: 1px solid rgb(193, 189, 189);
+        margin: 5px;
+        &:nth-child(1){
+            background-color: #fff;
+        }
+        &:nth-child(2){
+            background-color: #666a69;
+        }
+        &:nth-child(3){
+            background-color: #4f625d;
+        }
     }
 }

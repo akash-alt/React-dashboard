@@ -1,4 +1,58 @@
 
 .navbar{
-    color: aliceblue;
+    height: 50px;
+    border-bottom: 0.3px solid rgb(241, 234, 234);;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+    .wrapper{
+       
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        
+    }
+    .search{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+         border: 0.5px solid rgb(222, 230, 230);
+         margin-right: 50rem;
+         input{
+            border: none;
+            outline: none;
+            background-color: transparent;
+         }
+
+         span{
+            margin-top: 5px;
+            color:  rgb(222, 230, 230);
+         }
+    }
+    .items{
+        display: flex;
+        margin: 6px;
+        position: relative;
+    }
+}
+.image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.counter{
+    background-color: red;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    color: #fff;
 }

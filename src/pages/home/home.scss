@@ -2,7 +2,14 @@
 .home{
     display: flex;
     .home-container{
-      
         flex: 6;
     }
+    .widget-container,.chart-container{
+        display: flex;
+        padding: 20px;
+        gap: 10px;
+    }
+    // .charts,.features{
+    //     padding: 10px 20px;
+    // }
 }

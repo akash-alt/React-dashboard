@@ -22,48 +22,54 @@ const Sidebar = () => {
             <hr />
             <div className='center'>
                 <ul>
-                    <p className='title'>Main</p>
+                    <p className='title'>MAIN</p>
                     <li>
-                        <DashboardIcon /> Dashboard
+                        <DashboardIcon className='icon' /> <span>  Dashboard</span>
+                    </li>
+                    <p className='title'>LIST</p>
+                    <li>
+                        <PersonIcon className='icon' /><span>  User</span>
                     </li>
                     <li>
-                        <PersonIcon /> User
+                        <ProductionQuantityLimitsIcon className='icon' /><span>  Product</span>
                     </li>
                     <li>
-                        <ProductionQuantityLimitsIcon /> Products
-                    </li>
-                    <li>
-                        <Inventory2Icon /> Orders
+                        <Inventory2Icon className='icon' /><span>Orders</span>
                     </li>
                     <p className='title'>USEFUL</p>
                     <li>
-                        <LocalShippingIcon /> Delivery
+                        <LocalShippingIcon className='icon' /><span>  Delivery </span>
                     </li>
                     <li>
-                        <QueryStatsIcon /> Stats
+                        <QueryStatsIcon className='icon' /><span>  Stats</span>
                     </li>
                     <li>
-                        <CircleNotificationsIcon /> Notifications
+                        <CircleNotificationsIcon className='icon' /> <span> Notifications</span>
                     </li>
-                    <p className='title'>Service</p>
+                    <p className='title'>SERVICE</p>
                     <li>
-                        <SettingsSystemDaydreamIcon /> System Health
-                    </li>
-                    <li>
-                        <PsychologyIcon /> Logs
+                        <SettingsSystemDaydreamIcon className='icon' /><span>  System Health</span>
                     </li>
                     <li>
-                        <SettingsIcon /> Settings
+                        <PsychologyIcon className='icon' /><span>  Logs</span>
                     </li>
                     <li>
-                        <AccountBoxIcon /> Profile
+                        <SettingsIcon className='icon' /><span>  Settings</span>
+                    </li>
+                    <p className='title'>USER</p>
+                    <li>
+                        <AccountBoxIcon className='icon' /><span>  Profile</span>
                     </li>
                     <li>
-                        <LogoutIcon />  Logout
+                        <LogoutIcon className='icon' /> <span>  Logout</span>
                     </li>
                 </ul>
             </div>
-            <div>color change</div>
+            <div className='color-bottom'>
+                <div className='color-option'></div>
+                <div className='color-option'></div>
+                <div className='color-option'></div>
+            </div>
         </div>
     )
 }
